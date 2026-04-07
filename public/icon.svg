@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background matching app background token -->
+  <rect width="512" height="512" rx="96" fill="#141414"/>
+
+  <!-- Toilet + magnifying glass icon in app's primary green -->
+  <g transform="translate(96, 148) scale(4)">
+    <!-- Tank -->
+    <rect x="18" y="4" width="22" height="12" rx="3"
+      stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Left side of bowl -->
+    <path d="M13 16 Q11 33 13 37"
+      stroke="#4ade80" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Right side of bowl -->
+    <path d="M45 16 Q47 33 45 37"
+      stroke="#4ade80" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Seat oval -->
+    <ellipse cx="29" cy="33" rx="16" ry="11"
+      stroke="#4ade80" stroke-width="2.4"/>
+    <!-- Bottom bowl curve to base -->
+    <path d="M13 37 Q13 46 22 48 L36 48 Q47 46 45 37"
+      stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Foot/base -->
+    <path d="M19 48 L19 52 Q29 54 39 52 L39 48"
+      stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Magnifying glass lens -->
+    <circle cx="61" cy="22" r="12"
+      stroke="#4ade80" stroke-width="2.4"/>
+    <!-- Magnifying glass handle -->
+    <line x1="70" y1="31" x2="77" y2="42"
+      stroke="#4ade80" stroke-width="2.9" stroke-linecap="round"/>
+  </g>
+</svg>
